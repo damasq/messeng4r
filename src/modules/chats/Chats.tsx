@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { ChatItem } from "./ChatItem"
-import { ReactComponent as LoupeIcon } from "./img/loupe-icon.svg"
-import addChatIcon from "./img/add-chat-icon.svg"
+import { ReactComponent as LoupeIcon } from "../../common/img/loupe-icon.svg"
+import addChatIcon from "./img/add-new-chat-icon.svg"
 // import { Container, Header, ChatsList } from "./Chats.styled"
 
 export const Chats = () => {
