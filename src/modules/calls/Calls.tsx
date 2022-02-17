@@ -6,16 +6,20 @@ import addCallIcon from "./img/add-new-call-icon.svg"
 export const Calls = () => {
   return (
     <Container>
+
       <Header>
         <Title>Calls</Title>
         <LoupeIcon />
       </Header>
+
       <CallsList>
         <CallItem></CallItem>
       </CallsList>
+
       <AddCall>
         <AddCallButton src={addCallIcon} />
       </AddCall>
+
     </Container>
   )
 }

@@ -7,22 +7,27 @@ import addChatIcon from "./img/add-new-chat-icon.svg"
 export const Chats = () => {
   return (
     <Container>
+
       <Header>
         <Title>Chats</Title>
         <LoupeIcon />
       </Header>
+
       <ChatsFilters>
         <Filter>All chats</Filter>
         <Filter>Personal</Filter>
         <Filter>Work</Filter>
         <Filter>Groups</Filter>
       </ChatsFilters>
+
       <ChatsList>
         <ChatItem></ChatItem>
       </ChatsList>
+
       <AddChat>
         <AddChatButton src={addChatIcon} />
       </AddChat>
+
     </Container>
   )
 }
