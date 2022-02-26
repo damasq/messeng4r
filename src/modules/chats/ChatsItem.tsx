@@ -27,10 +27,6 @@ const Container = styled.div`
   &:not(:last-child) {
     margin-bottom: 12px;
   }
-
-  &:last-child {
-    margin-bottom: 90px;
-  }
 `
 
 const AvatarWrapper = styled.div`

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { CallItem } from "./CallItem"
+import { CallsItem } from "./CallsItem"
 import { ReactComponent as LoupeIcon } from "../../common/img/loupe-icon.svg"
 import addCallIcon from "./img/add-new-call-icon.svg"
 
@@ -13,7 +13,7 @@ export const Calls = () => {
       </Header>
 
       <CallsList>
-        <CallItem></CallItem>
+        <CallsItem />
       </CallsList>
 
       <AddCall>

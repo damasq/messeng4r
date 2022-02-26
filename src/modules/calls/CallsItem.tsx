@@ -3,7 +3,7 @@ import logo from '../../common/img/trash/trash01.jpg'
 import inc from './img/inc.svg'
 import { ReactComponent as PhoneCallIcon } from "./img/phone-call-icon.svg"
 
-export const CallItem = () => {
+export const CallsItem = () => {
   return (
     <Container>
       <AvatarWrapper>
@@ -31,10 +31,6 @@ const Container = styled.div`
 
   &:not(:last-child) {
     margin-bottom: 12px;
-  }
-
-  &:last-child {
-    margin-bottom: 90px;
   }
 `
 

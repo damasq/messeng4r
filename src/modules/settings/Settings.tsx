@@ -144,7 +144,6 @@ const Status = styled.div`
 
 const SettingsWrapper = styled.div`
   padding: 0 8px;
-  margin-bottom: 80px;
 `
 
 const SettingsItem = styled.div`

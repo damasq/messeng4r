@@ -13,9 +13,9 @@ type Props = {
 export const MainLayout = ({ children }: Props) => {
   return (
     <Container>
-
-      {children}
-
+      <Page>
+        {children}
+      </Page>
       <Tabs>
         <Tab>
           <ChatsIcon />
@@ -38,13 +38,19 @@ export const MainLayout = ({ children }: Props) => {
 const Container = styled.div`
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+`
+
+const Page = styled.div`
+  flex: 1 1 auto;
+  height: 100%;
+  overflow-y: auto;
 `
 
 const Tabs = styled.div`
-  position: fixed;
-  bottom: 0;
+  flex: 0 0 auto;
   background: #FFFFFF;
-  width: 100%;
   display: flex;
   text-align: center;
   justify-content: space-between;

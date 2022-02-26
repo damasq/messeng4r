@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { ChatItem } from "./ChatItem"
+import { ChatItem } from "./ChatsItem"
 import { ReactComponent as LoupeIcon } from "../../common/img/loupe-icon.svg"
-import addChatIcon from "./img/add-new-chat-icon.svg"
+import addChatIcon from "./img/chats/add-new-chat-icon.svg"
 // import { Container, Header, ChatsList } from "./Chats.styled"
 
 export const Chats = () => {
@@ -21,7 +21,7 @@ export const Chats = () => {
       </ChatsFilters>
 
       <ChatsList>
-        <ChatItem></ChatItem>
+        <ChatItem />
       </ChatsList>
 
       <AddChat>
@@ -40,8 +40,8 @@ const Container = styled.div`
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 24px 0;
-  padding: 0 8px;
+  /* margin: 24px 0; */
+  padding: 24px 8px;
 `
 
 const Title = styled.h2`
